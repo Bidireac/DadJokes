@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://bootswatch.com/4/litera/bootstrap.css">
+    <style>
+        .form-control:focus {
+            box-shadow: none;
+        }
+    </style>
+    <title>DadJokesAPI</title>
+</head>
+
+<body>
+    <div class="container mt-4 text-center">
+        <h1 class="text-info display-2 p-4" id="showcase">Dad Jokes Generator</h1>
+        <form class="m-4">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-warning btn-lg form-control" type="button" id="button">Become that
+                        cool
+                        dad</button>
+                </div>
+                <input type="number" id="number" class="form-control form-control-lg text-info border border-warning"
+                    placeholder="How many jokes would you like ?">
+            </div>
+        </form>
+        <ul class="jokes"></ul>
+        <div class="container-fluid fixed-bottom">
+            <div class="row">
+                <div class="col-6">
+                    <a href="index.html"><i class="fas fa-redo fa-2x text-info mb-3 p-3 mr-4 float-left"></i></a>
+                </div>
+                <div class="col-6" id="toShowcase">
+                    <a href="#showcase"><i
+                            class="fas fa-angle-double-up fa-2x text-info mb-3 p-3 mr-4 float-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/03daa76610.js" crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
