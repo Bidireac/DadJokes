@@ -8,7 +8,7 @@
 * [Status](#status)
 
 ## General info
-A simple web application that generates dad jokes through an external API and that can set your mood for the rest of the day.
+A simple web application that generates dad jokes through an external API and that can improve your mood for the rest of the day.
 	
 ## Technologies
 Project is created with:
