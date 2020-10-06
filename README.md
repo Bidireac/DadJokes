@@ -8,7 +8,7 @@
 * [Status](#status)
 
 ## General info
-A simple web application that generates dad jokes through an API and can set your mood for the rest of the day.
+A simple web application that generates dad jokes through an external API and that can set your mood for the rest of the day.
 	
 ## Technologies
 Project is created with:
@@ -22,7 +22,7 @@ Project is created with:
 ## Setup
 To run this project, open it with Live Server in VS code.
 
-![demo](/DadJokes/demo/)
+![demo](/DadJokes/demo/DadJokes.gif)
 
 ## Status
 Project is:  _finished
